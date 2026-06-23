@@ -32,8 +32,6 @@ public class VersionControl {
     public boolean isBadVersion(int version) { 
         // This method should be implemented by the testing framework 
         return version >= 4; // For example, versions 4 and above are bad 
- 
- 
     } 
  
  // Method to find the first bad version 

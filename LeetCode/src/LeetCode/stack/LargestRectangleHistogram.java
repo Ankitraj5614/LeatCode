@@ -33,7 +33,7 @@ public class LargestRectangleHistogram {
         Stack<Integer> stack = new Stack<>(); 
         int maxArea = 0; 
         int n = heights.length; 
-         
+        
         // Traverse each bar in the histogram 
         for (int i = 0; i <= n; i++) { 
             // We need to process the last bar after the loop ends 
